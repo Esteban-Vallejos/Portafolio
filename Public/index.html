@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
+
+    <title>Esteban Vallejos | Desarrolladora Web Front-End</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/Black Circle Icon Business Logo (1).png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <!-- <img src="./assets/images/logo.png" alt="Logo Portafolio" class="logo__header"> -->
+         <br>
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/DALL·E 2024-12-20 15.18.41 - A minimalist digital illustration of a male character with curly brown hair, styled in a loose and natural way. The character is depicted in a faceles.webp" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Esteban Vallejos</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador Back-End</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Estudiante de ingenieria en sistemas y programación enfocada al Desarrollo Back-End. Como persona apasionado por los sistemas eficientes y escalables, mi objetivo es crear soluciones backend que no solo sean robustas y seguras, sino también diseñadas para potenciar la experiencia del usuario final. Me especializo en construir arquitecturas sólidas y optimizar procesos para garantizar un rendimiento impecable que sustente interfaces intuitivas y estéticamente agradables.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="./assets/curriculum.docx" download="curriculum-EstebanV.Q.docx">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar curriculum</button>
+                    </a>
+                    <a href="https://esteban-vallejos.github.io">
+                        <button class="contact_button" data-section="home" data-value="contact_button">CV</button>
+                    </a>
+                    
+                </div>
+                
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/esteban-vallejos-quirós-5a2041333/" target="_blank">
+                    <img src="./assets/images/icons8-linkedin.svg" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/Esteban-Vallejos" target="_blank">
+                    <img src="./assets/images/icons8-github-30.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="mailto:estebanvallejos003@gmail.com" target="_blank">
+                    <img src="./assets/images/icons8-correo-100.png" alt="CodePen" class="icon-CodePen">
+                </a>
+                <a href="https://www.instagram.com/e.n.d__________s/profilecard/?igsh=MTlldGYxZm9scHhuNw==" target="_blank">
+                    <img src="./assets/images/icons8-instagram-30.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Esteban Vallejos Quirós</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy estudiante de primer ingreso en Ingeniería en Sistemas y autodidacta en Desarrollo Web enfocado en programación Backend. <br><br> Aspiro a conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. <br><br> Me considero una persona empática y entusiasta, con competencias centradas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsabilidad y proactividad. Disfruto aprender de los demás y me esfuerzo continuamente por superarme. </span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/DALL·E 2024-12-20 15.19.42 - A minimalist digital illustration of a male character with curly brown hair, styled in a loose and natural way. The character is depicted in a faceles.webp" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades/Herramientas</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt="HTML">
+                    <p>.NET</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="CSS">
+                    <p>microsoftsqlserver</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Notion">
+                    <p>Express</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="Tailwind">
+                    <p>c#</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python">
+                    <p>python</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" alt="Git">
+                    <p>SQLite</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-github-hab.png" alt="GitHub">
+                    <p>Github</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-trello.png" alt="Trello">
+                    <p>Trello</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/images.jpg" alt="Logo - CTPA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Bachillerato en Educación Media </p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2019 - 2024</p>
+                    </div>
+                </div>
+
+                <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/images.jpg" alt="Logo - CTPA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Técnico en el nivel medio, Informática Empresarial</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2024</p>
+                    </div>
+                </div>
+
+                <!-- <div class="cards--formacion" data-aos="fade-down" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/images.jpg" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Desarrollo Web Full-Stack</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2023</p>
+                    </div>
+                </div> -->
+
+                <!-- <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/slogo.png" alt="L">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Contabil</p>
+                        <p>2017 - 2018</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/conta2.png" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">App de contabilidad</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">SynthWave es una app de contabilidad para emprendedores y pequeñas empresas que buscan simplicidad y eficiencia. Ofrece herramientas integrales para gestionar ventas, inventarios y generar informes financieros, facilitando el crecimiento del negocio.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/Esteban-Vallejos/App-de-contabilidad-SynthWave/releases/tag/Mejora-de-rendimiento-contabilidad-3.0" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Esteban-Vallejos/App-de-contabilidad-SynthWave" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/Screenshot 2024-12-20 214128.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Portafolio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="#" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Esteban-Vallejos/Portafolio" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/bb5c002a-010a-496f-a1fb-dd67c67806c0.png" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Discord Bot ticket</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Un bot para gestionar soporte en Discord, permitiendo a los usuarios crear tickets y recibir asistencia en canales privados de manera rápida y organizada.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/Esteban-Vallejos/ticket.git" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Esteban-Vallejos/ticket" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact">
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/esteban-vallejos-quirós-5a2041333/" target="_blank">
+                    <img src="./assets/images/icons8-linkedin.svg" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/Esteban-Vallejos" target="_blank">
+                    <img src="./assets/images/icons8-github-30.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="mailto:estebanvallejos003@gmail.com" target="_blank">
+                    <img src="./assets/images/icons8-correo-100.png" alt="CodePen" class="icon-CodePen">
+                </a>
+                <a href="https://www.instagram.com/e.n.d__________s/profilecard/?igsh=MTlldGYxZm9scHhuNw==" target="_blank">
+                    <img src="./assets/images/icons8-instagram-30.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Esteban Vallejos Quirós</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

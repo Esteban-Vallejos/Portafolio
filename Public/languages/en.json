@@ -1,0 +1,51 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Back-End Web Developer",
+        "parrafo-info": "Systems engineering and programming student focused on Back-End Development. As a person with a passion for efficient and scalable systems, my goal is to create backend solutions that are not only robust and secure, but also designed to enhance the end-user experience. I specialize in building robust architectures and optimizing processes to ensure seamless performance that supports intuitive and aesthetically pleasing interfaces.",
+        "cv_button": "Download Curriculum",
+        "contact_button": "CV"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "Systems engineering and programming student focused on Back-End Development. As a person with a passion for efficient and scalable systems, my goal is to create backend solutions that are not only robust and secure, but also designed to enhance the end-user experience. I specialize in building robust architectures and optimizing processes to ensure seamless performance that supports intuitive and aesthetically pleasing interfaces."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Secondary Education Diploma",
+        "tiempo-formacion1": "2019 - 2024",
+        "formacion2": "Technical Diploma in Mid-level Education, Business Information Technology",
+        "tiempo-formacion2": "2022 - 2024",
+        "formacion3": "Accounting for Commercial and Financial Transactions"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "App de contabilidad",
+        "info-proyecto1": "SynthWave is an accounting app for entrepreneurs and small businesses seeking simplicity and efficiency. It offers comprehensive tools to manage sales, inventories, and generate financial reports, facilitating business growth.",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "My personal web portfolio, where you can find some of my most notable projects, my technical skills, and a bit about my background.",
+        "title-proyecto3": "Discord Bot ticket",
+        "info-proyecto3": "A bot to manage support on Discord, allowing users to create tickets and receive assistance in private channels quickly and organized."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}

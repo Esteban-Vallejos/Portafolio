@@ -1,0 +1,51 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrolladora web Back-End",
+        "parrafo-info": "Estudiante de Estadistica y programación enfocada al Desarrollo Web Frontend. Como persona amante a los diseños intuitivos y estéticamente agradables busco crear proyectos que brinden la mejor experiencia para el usuario.",
+        "cv_button": "Descargar Curriculum",
+        "contact_button": "CV"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Estudiante de ingenieria en sistemas y programación enfocada al Desarrollo Back-End. Como persona apasionado por los sistemas eficientes y escalables, mi objetivo es crear soluciones backend que no solo sean robustas y seguras, sino también diseñadas para potenciar la experiencia del usuario final. Me especializo en construir arquitecturas sólidas y optimizar procesos para garantizar un rendimiento impecable que sustente interfaces intuitivas y estéticamente agradables."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Bachillerato en Educación Media",
+        "tiempo-formacion1": "2019 - 2024",
+        "formacion2": "Técnico en el nivel medio, Informática Empresarial",
+        "tiempo-formacion2": "2022 - 2024",
+        "formacion3": "Contabilización de Operaciones Comerciales y Financieras"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "App de contabilidad",
+        "info-proyecto1": "SynthWave es una app de contabilidad para emprendedores y pequeñas empresas que buscan simplicidad y eficiencia. Ofrece herramientas integrales para gestionar ventas, inventarios y generar informes financieros, facilitando el crecimiento del negocio.",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
+        "title-proyecto3": "Discord Bot ticket",
+        "info-proyecto3": "Un bot para gestionar soporte en Discord, permitiendo a los usuarios crear tickets y recibir asistencia en canales privados de manera rápida y organizada."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}
