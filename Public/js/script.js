@@ -143,6 +143,6 @@ function mostrarMensaje(tipo, texto) {
         mensajeElement.classList.remove('mostrar');
         setTimeout(() => {
             mensajeElement.remove();
-        }, 300);
-    }, 3000);
+        }, 400);
+    }, 4000);
 }
