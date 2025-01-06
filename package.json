@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariasmoUN/portafolio.git"
+    "url": "git+https://github.com/Esteban-Vallejos/Portafolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mariasmoUN/portafolio/issues"
+    "url": "https://github.com/Esteban-Vallejos/Portafolio/issues"
   },
-  "homepage": "https://github.com/mariasmoUN/portafolio#readme",
+  "homepage": "https://github.com/Esteban-Vallejos/Portafolio/blob/main/README.md",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
